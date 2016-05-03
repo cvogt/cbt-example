@@ -20,3 +20,8 @@ Cli friendly
 - run something in classpath
 - open repl in cp
 - open pom file
+
+extra:
+- GitDependency
+- reproducible builds
+- multi-builds
