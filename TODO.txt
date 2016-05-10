@@ -1,27 +1,28 @@
-Convention
-- scala file in empty folder and compile
-- Main and run
+- empty
+- compile
+- run
 - test
 
-Configuration
 - build file and add dependencies
-- traits as plugins
-- build for build and dependencies
-- dependent builds, subproject
-- test as dependent build
 
-Help
+- classpath
+- repl
+- use cli friendly responses by default everywhere
+- open repl in cp
+- open pom file
+
+- looping
+
+- GitDependency("https://github.com/xdotai/diff.git", "0a9b0e87f872554397564806f4592320566dd2d1")
+- // cbt:https://github.com/cvogt/cbt.git#80da1d862e49b1812c51e1b0c6eb26947d36f26d
+
+- build for build and dependencies
+
+- traits as plugins
+- dependent builds, subproject
+
 - logging
 - cbt tools
 - maven search
 
-Cli friendly
-- use cli friendly responses by default everywhere
-- run something in classpath
-- open repl in cp
-- open pom file
-
-extra:
-- GitDependency
-- reproducible builds
-- multi-builds
+- multi-project-builds
